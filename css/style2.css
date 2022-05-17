@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:-webkit-radial-gradient(grey, black);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 7rem;
+    font-weight: bold;
+    box-shadow: 0 10px 10px 10px white;
+
+}
+header{
+    width: 1400px;
+    background-color:transparent;
+    margin: auto;
+    margin-top:1rem;
+    color: white;
+    font-style: italic;
+    padding-bottom: 1.5rem;
+
+}
+nav{
+    margin-top:80px;
+    width:85%;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+nav ul li a{
+    cursor: pointer;
+    padding: 0.8rem 1.8rem;
+    border: 4px solid white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 35px;
+    transition: .5s;
+    font-family: inherit;
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+nav ul li a:hover{
+    cursor: pointer;
+    border: 4px solid black;
+    background-color: #560e86;
+    font-family: inherit;
+    color: black;
+    border-radius: 10%;
+
+}
+.formulario{
+    width: 1200px;
+    height: 750px;
+    background: url(/img/fondoFormulario.jpg);
+    color: white;
+    padding: 2rem;
+    margin-left: 7.5%;
+    margin-bottom: 2.5rem;
+    border-radius: 50px;
+}
+.formulario form p input{
+    width: 15rem;;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+.formulario form p{
+    font-size: 2rem;
+}
+.name{
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    float: left;
+}
+.lastname{
+    float: right;
+}
+.age{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    float: left;
+}
+.email{
+    float: right;
+}
+.cellphone{
+    margin-top: 2rem;
+    float: left;
+}
+select{
+    width: 15rem;;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    float: right;
+}
+.send{
+    width: 15rem;;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: 40%;
+    margin-top: 6rem;
+}
+.send:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: #560e86;
+    font-family: inherit;
+    color: black;
+}
+.sort{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.pie{
+    display: inline-block;
+    flex-direction:column;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-align:center;
+}
+.pie img{
+    width: 200px;
+    height: 100px;
+    margin: 2rem;
+    box-shadow: 0 10px 10px 10px grey ;
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-top:3rem
+}
+h4{
+    text-align: center;
+    font-size: 2rem;
+    margin-top:3rem
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/img/fondo2.jpg);
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 7rem;
+    font-weight: bold;
+    box-shadow: 0 10px 10px 10px grey;
+
+}
+
+h2{
+    margin:1rem;
+    margin-top: 2rem;
+    font-size:2.5rem;
+}
+header{
+    width: 1500px;
+    background:transparent;
+    margin: auto;
+    margin-top:1rem;
+    color: white;
+    font-style: italic;
+}
+
+.imagen{
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+    border-radius: 50px;
+    
+}
+.imagen:hover {filter: blur(3px);}
+
+.imagen1{
+    width: 30%;
+    float: right;
+    margin-top: 70px;
+    padding-left: 20px;
+    border-radius: 50px;
+}
+.imagen1:hover {filter: blur(3px);}
+
+.text1{
+    width:70%;
+    float: right;
+    font-size: 2em;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 85px;
+}
+.text2{
+    width:70%;
+    float: left;
+    font-size: 2em;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 40px;
+}
+.text3{
+    width:70%;
+    float: right;
+    font-size: 2em;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 120px;
+}
+.text4{
+    width:70%;
+    float: left;
+    font-size: 2em;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 45px;
+}
+.text5{
+    width:70%;
+    float: right;
+    font-size: 2em;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 110px;
+}
+.text6{
+    width:70%;
+    float: left;
+    font-size: 2em;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+nav{
+    margin-top:80px;
+    width:85%;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+nav ul li a{
+    cursor: pointer;
+    padding: 0.8rem 1.8rem;
+    border: 4px solid white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 35px;
+    transition: .5s;
+    font-family: inherit;
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+nav ul li a:hover{
+    cursor: pointer;
+    border: 4px solid black;
+    background-color: #560e86;
+    font-family: inherit;
+    color: black;
+    border-radius: 10%;
+
+}
+.pie{
+    display: inline-block;
+    margin-left: 13rem;
+    margin-top: 3rem;
+    text-align:center;
+}
+.pie img{
+    width: 200px;
+    height: 100px;
+    margin: 2rem;
+    box-shadow: 0 10px 10px 10px grey ;
+    cursor: pointer;
+}
+h3{
+    font-size: 3rem;
+}
+.clear{
+    clear: both;
+}
